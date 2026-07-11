@@ -12,7 +12,7 @@
       <header class="topbar">
         <div>
           <p class="series">NLA Gallery</p>
-          <h1>象徴を一枚へ浸透させるプロンプト生成器</h1>
+          <h1>固定世界観とテーマカテゴリで展示作品を組み立てる生成システム</h1>
         </div>
         <div class="hero-actions">
           <button id="generateButton" class="primary-button" type="button">ランダム生成</button>
@@ -24,8 +24,8 @@
         <aside class="control-panel" aria-label="生成設定">
           <div class="panel-header">
             <div>
-              <p class="section-kicker">Generate Setting</p>
-              <h2>今回の設定</h2>
+              <p class="section-kicker">Theme Generator</p>
+              <h2>今回の展示テーマ</h2>
             </div>
             <button id="resetButton" class="text-button" type="button">初期化</button>
           </div>
@@ -58,16 +58,16 @@
             </div>
             <dl class="motif-meaning">
               <div>
-                <dt>象徴</dt>
+                <dt>Motif</dt>
                 <dd id="selectedMotif">-</dd>
               </div>
               <div>
-                <dt>構成</dt>
-                <dd>Character-focused</dd>
+                <dt>Category</dt>
+                <dd id="selectedCategory">-</dd>
               </div>
               <div>
-                <dt>質感</dt>
-                <dd>Matte / Low noise</dd>
+                <dt>Hook</dt>
+                <dd id="selectedHook">-</dd>
               </div>
             </dl>
           </div>
